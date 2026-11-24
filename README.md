@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="leis — legislação brasileira para agentes de IA" width="820">
+<img src="assets/banner.svg" alt="leis explicadas — legislação brasileira para agentes de IA" width="820">
 
 ### Rotas verificadas para buscar e citar a legislação brasileira — no seu agente de IA.
 
@@ -15,7 +15,7 @@
 
 ---
 
-**leis** é um plugin no padrão [Agent Skills](https://agentskills.io) — adotado por Claude
+**Leis Explicadas** é um plugin no padrão [Agent Skills](https://agentskills.io) — adotado por Claude
 (Claude Code e claude.ai), OpenAI Codex, Gemini CLI, GitHub Copilot, Cursor e Hermes — que
 dá rotas verificadas para buscar e citar a legislação brasileira. Dado um assunto, o agente
 sabe onde procurar o texto oficial — no acervo
@@ -53,8 +53,8 @@ DOU) — e responde **citando a fonte publicada**, nunca só a conversão autom�
 ### Claude Code
 
 ```text
-/plugin marketplace add brunomalveira/leis
-/plugin install leis@leis-br
+/plugin marketplace add brunomalveira/leis-explicadas
+/plugin install leis-explicadas@leis-explicadas-br
 ```
 
 Pronto. Pergunte ao Claude: *"A empresa não devolveu meu dinheiro — o que faço? Cite a lei."*
@@ -62,7 +62,7 @@ Pronto. Pergunte ao Claude: *"A empresa não devolveu meu dinheiro — o que fa�
 ### claude.ai (Pro/Max)
 
 1. Baixe o repositório (**Code ▸ Download ZIP**) e extraia.
-2. Compacte apenas a pasta `skills/legislacao-brasileira/` — o `SKILL.md` deve ficar na
+2. Compacte apenas a pasta `skills/leis-explicadas/` — o `SKILL.md` deve ficar na
    raiz do zip.
 3. Envie o zip em **Configurações › Capacidades (Capabilities) › Skills**.
 
@@ -71,7 +71,7 @@ Pronto. Pergunte ao Claude: *"A empresa não devolveu meu dinheiro — o que fa�
 <details>
 <summary><b>Copiar a pasta do skill (qualquer agente com suporte a Agent Skills)</b></summary>
 
-Copie `skills/legislacao-brasileira/` para o diretório de skills do seu agente — o formato
+Copie `skills/leis-explicadas/` para o diretório de skills do seu agente — o formato
 é o [open standard Agent Skills](https://agentskills.io), então o mesmo conteúdo funciona
 em Claude, Codex, Gemini CLI, GitHub Copilot, Cursor, Hermes e outros.
 
@@ -126,7 +126,7 @@ agente traz a fonte oficial citada e, em caso de divergência, prevalece a ofici
 O acervo é o [**ctresb/leis**](https://github.com/ctresb/leis) — todo o conteúdo das buscas
 vem dele: normas oficiais federais, estaduais, municipais e de reguladores convertidas para
 Markdown com frontmatter estruturado, em atualização constante. O campo `fonte:` de cada
-norma aponta à publicação oficial. O projeto **leis** apenas roteia a busca nesse acervo e
+norma aponta à publicação oficial. O projeto **Leis Explicadas** apenas roteia a busca nesse acervo e
 nas fontes oficiais — o conteúdo é do acervo.
 
 Na comunidade, projetos relacionados:

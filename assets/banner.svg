@@ -15,7 +15,7 @@
     <path d="M632 78 L648 60 L664 78 Z"/>
     <line x1="586" y1="94" x2="614" y2="94"/>
   </g>
-  <text x="600" y="166" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="82" font-weight="700" fill="#ffffff" letter-spacing="3">leis</text>
+  <text x="600" y="166" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="2">leis explicadas</text>
   <text x="600" y="210" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="26" fill="#8b949e">Legislação brasileira para agentes de IA</text>
   <text x="600" y="252" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" fill="#3fb950">rotas verificadas · citação da fonte oficial · open standard Agent Skills</text>
 </svg>

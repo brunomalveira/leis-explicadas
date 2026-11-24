@@ -1,10 +1,10 @@
 {
-  "name": "leis-br",
+  "name": "leis-explicadas-br",
   "description": "Plugins de legislação brasileira para agentes de IA",
   "owner": { "name": "Bruno Malveira" },
   "plugins": [
     {
-      "name": "leis",
+      "name": "leis-explicadas",
       "source": "./",
       "description": "Legislação brasileira com citação da fonte oficial e explicação em linguagem acessível.",
       "category": "legal",

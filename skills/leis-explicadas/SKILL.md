@@ -1,5 +1,5 @@
 ---
-name: legislacao-brasileira
+name: leis-explicadas
 description: "Consulta legislação brasileira (leis, decretos, MPs, emendas, súmulas, jurisprudência): busca o texto oficial no acervo ctresb/leis e em fontes oficiais (Planalto, normas.leg.br, Senado, DOU), cita a fonte e explica em linguagem acessível. Use em qualquer pergunta que exija base legal brasileira."
 ---
 
