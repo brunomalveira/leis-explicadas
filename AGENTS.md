@@ -20,6 +20,7 @@ ou o site oficial onde encontrou. A conversão do acervo não substitui a public
 ```
 .claude-plugin/                     plugin.json + marketplace.json (o repo é o marketplace)
 skills/legislacao-brasileira/       SKILL.md + references/ (rotas por domínio, sob demanda)
+assets/                             banner do README
 README.md                           instalação e uso
 docs/                               workspace local do autor (gitignored — não faz parte do plugin)
 ```
