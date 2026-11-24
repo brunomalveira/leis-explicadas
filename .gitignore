@@ -1,0 +1,7 @@
+# Workspace local do autor (não faz parte do plugin)
+docs/
+
+# Sistema / editores
+.DS_Store
+*.swp
+.claude/settings.local.json

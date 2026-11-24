@@ -1,0 +1,10 @@
+{
+  "name": "leis",
+  "description": "Consulta legislação brasileira com texto oficial citado: rotas verificadas no acervo ctresb/leis, fontes oficiais e explicações em linguagem acessível.",
+  "version": "0.1.0",
+  "author": { "name": "Bruno Malveira" },
+  "homepage": "https://github.com/brunomalveira/leis",
+  "repository": "https://github.com/brunomalveira/leis",
+  "license": "MIT",
+  "keywords": ["legislação", "brasil", "direito", "leis", "planalto", "normas"]
+}
