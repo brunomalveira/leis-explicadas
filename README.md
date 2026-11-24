@@ -83,16 +83,13 @@ direciona ao `SKILL.md`.
 ## Como funciona
 
 ```mermaid
-flowchart TD
-    Q["Pergunta de legislação<br/>“posso X?” · “o que diz a lei Y?”"] --> S["Agente com o skill legislacao-brasileira"]
-    S --> D["Domínio identificado<br/>federal · reguladores · jurisprudência<br/>estadual/municipal · tratados"]
-    D --> R["Rotas verificadas carregadas<br/>de references/ sob demanda"]
-    R --> A["Acervo ctresb/leis<br/>URL raw (tipo + número + data)<br/>ou contents API na pasta (60 req/h)"]
-    A -- "norma encontrada" --> T["Frontmatter da norma:<br/>titulo · data · versao_texto · fonte"]
-    A -- "acervo não cobre" --> OFF["Fontes oficiais<br/>Planalto · normas.leg.br · Senado · DOU"]
-    T --> C{"texto confere com a<br/>fonte oficial?"}
-    C -- "sim" --> F["Resposta em linguagem acessível<br/>resposta direta · dispositivos citados<br/>fonte oficial · avisos"]
-    C -- "diverge" --> G["prevalece a oficial<br/>divergência reportada"]
+flowchart LR
+    S["Pergunta de legislação<br/>skill: domínio → rotas<br/>de references/"] --> A["Acervo ctresb/leis<br/>URL raw ou<br/>contents API"]
+    A -- "norma<br/>encontrada" --> T["Frontmatter:<br/>fonte · versão<br/>· revogada"]
+    A -- "não cobre" --> OFF["Fontes oficiais<br/>Planalto · normas.leg.br<br/>Senado · DOU"]
+    T --> C{"confere com<br/>a fonte?"}
+    C -- "sim" --> F["Resposta acessível:<br/>dispositivos citados<br/>fonte oficial · avisos"]
+    C -- "diverge" --> G["prevalece<br/>a oficial"]
     OFF --> F
     G --> F
 ```
