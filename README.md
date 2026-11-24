@@ -61,16 +61,18 @@ Pronto. Pergunte ao Claude: *"A empresa não devolveu meu dinheiro — o que fa�
 
 ### claude.ai (gratuito, Pro, Max…)
 
-Skills funcionam no plano gratuito: estão disponíveis em Free, Pro, Max, Ultra, Team e
-Enterprise (requer "Execução de código e criação de arquivos" ligado).
+Funciona no plano gratuito: skills/plugins estão disponíveis em Free, Pro, Max, Ultra,
+Team e Enterprise.
 
 1. Baixe o repositório (**Code ▸ Download ZIP**) e extraia.
 2. Compacte apenas a pasta `skills/leis-explicadas/` — o `SKILL.md` deve ficar na
    raiz do zip.
-3. Em **Configurações › Capacidades (Capabilities)**, ative **Execução de código e criação
-   de arquivos**.
-4. Vá em **Personalizar (Customize) › Skills**, clique **+** → **+ Create skill** →
-   **Upload a skill** e envie o zip.
+3. Clique no seu nome ou ícone de perfil (canto inferior esquerdo na web e no desktop;
+   no app, pelo menu).
+4. Abra **Configurações** e vá até a aba **Recursos**.
+5. Habilite **Criar e editar arquivos**.
+6. No menu lateral, abra **Plugins** e, na barra superior, selecione **Adicionar** →
+   **Fazer upload de plugin** — envie o zip.
 
 ### Codex, Cursor, Gemini CLI, GitHub Copilot e outros agentes
 
