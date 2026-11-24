@@ -59,12 +59,18 @@ DOU) — e responde **citando a fonte publicada**, nunca só a conversão autom�
 
 Pronto. Pergunte ao Claude: *"A empresa não devolveu meu dinheiro — o que faço? Cite a lei."*
 
-### claude.ai (Pro/Max)
+### claude.ai (gratuito, Pro, Max…)
+
+Skills funcionam no plano gratuito: estão disponíveis em Free, Pro, Max, Ultra, Team e
+Enterprise (requer "Execução de código e criação de arquivos" ligado).
 
 1. Baixe o repositório (**Code ▸ Download ZIP**) e extraia.
 2. Compacte apenas a pasta `skills/leis-explicadas/` — o `SKILL.md` deve ficar na
    raiz do zip.
-3. Envie o zip em **Configurações › Capacidades (Capabilities) › Skills**.
+3. Em **Configurações › Capacidades (Capabilities)**, ative **Execução de código e criação
+   de arquivos**.
+4. Vá em **Personalizar (Customize) › Skills**, clique **+** → **+ Create skill** →
+   **Upload a skill** e envie o zip.
 
 ### Codex, Cursor, Gemini CLI, GitHub Copilot e outros agentes
 
@@ -129,15 +135,3 @@ Markdown com frontmatter estruturado, em atualização constante. O campo `fonte
 norma aponta à publicação oficial. O projeto **Leis Explicadas** apenas roteia a busca nesse acervo e
 nas fontes oficiais — o conteúdo é do acervo.
 
-Na comunidade, projetos relacionados:
-
-- [mazulo/leis-mcp](https://github.com/mazulo/leis-mcp) — servidor MCP sobre o mesmo acervo
-  ctresb/leis, com índice SQLite local
-- [cristianoaredes/mcp-camara](https://github.com/cristianoaredes/mcp-camara) — MCP da API
-  de Dados Abertos da Câmara dos Deputados
-- [AlissonSantos1/brasil-legal-skills](https://github.com/AlissonSantos1/brasil-legal-skills) —
-  plugin consultivo de direito brasileiro com calculadoras
-
-## Licença
-
-[MIT](LICENSE) — os termos do acervo ctresb/leis são os do próprio repositório.
